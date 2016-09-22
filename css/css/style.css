@@ -1,0 +1,390 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: "Lucida Grande";
+  position: relative; }
+
+.main-avatar {
+  position: absolute;
+  left: 540px;
+  top: 75px; }
+
+.main-top {
+  height: 127px;
+  width: 1280px;
+  float: left;
+  background-color: #E9EBEE; }
+
+.main-bottom {
+  overflow: hidden;
+  height: 680px;
+  width: 1280px;
+  background-color: #fff; }
+
+.center-block {
+  height: 100%;
+  width: 620px;
+  overflow: scroll;
+  float: left;
+  margin: 20px; }
+
+.welcome-panel {
+  height: 24px;
+  width: 1280px;
+  float: left;
+  background-color: #9999cc;
+  border: 1px solid #999999;
+  padding: 0px 10px 0px 10px; }
+  .welcome-panel a {
+    color: #666666;
+    text-decoration: none; }
+
+.welcome-text {
+  font-weight: bold;
+  float: left; }
+
+.welcome-panel-hyperlinks {
+  float: right;
+  overflow: hidden;
+  white-space: nowrap; }
+
+.top-navigation {
+  background-color: #3b5998;
+  height: 30px;
+  width: 960px;
+  float: left;
+  margin: 0px 160px 0px 160px; }
+  .top-navigation .Applications {
+    float: left;
+    padding-left: 10px;
+    font-size: 12px; }
+    .top-navigation .Applications li {
+      padding: 6px; }
+    .top-navigation .Applications a {
+      color: #fff;
+      text-decoration: none; }
+  .top-navigation .settings {
+    font-size: 12px;
+    float: right; }
+    .top-navigation .settings li {
+      padding: 5px; }
+      .top-navigation .settings li input {
+        height: 20px; }
+    .top-navigation .settings a {
+      color: #cccccc;
+      text-decoration: none; }
+    .top-navigation .settings .aroundSearchButton {
+      float: right;
+      background-color: #6699cc;
+      width: 19px;
+      height: 20px;
+      padding-left: 4px;
+      border-left: 1px solid #336666; }
+
+.logo {
+  float: left;
+  padding: 3px 10px 0px 10px; }
+
+.wall-info-photos {
+  float: left;
+  width: 340px;
+  height: 55px;
+  margin: 18px 0px 0px 400px;
+  font-size: 12px; }
+  .wall-info-photos b {
+    font-size: 16px; }
+  .wall-info-photos .main-name {
+    float: left;
+    height: 20px;
+    width: 100%; }
+    .wall-info-photos .main-name .main-name-date {
+      font-size: 10px; }
+  .wall-info-photos .inset {
+    float: left;
+    height: 20px;
+    width: 70px;
+    background-color: #ccccff;
+    margin: 15px 2px 0px 0px;
+    text-align: center; }
+  .wall-info-photos .selected-inset {
+    background-color: #fff; }
+
+.bottom-panel {
+  margin: 0px 23px 0px 23px;
+  float: left;
+  width: 1234px;
+  height: 26px;
+  background-color: #cccccc;
+  bottom: 0;
+  border: 1px solid #336666; }
+  .bottom-panel span {
+    float: right;
+    padding-right: 50px;
+    height: 100%; }
+  .bottom-panel img {
+    float: right;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+    padding: 0px 10px 0px 10px;
+    border-left: 1px solid #336666; }
+
+.main-menu {
+  float: right;
+  width: 600px;
+  height: 35px;
+  margin: 10px 0px 0px 0px;
+  font-size: 12px; }
+  .main-menu img {
+    max-width: 100%;
+    max-height: 100%; }
+  .main-menu .main-menu-button {
+    float: left;
+    height: 25px;
+    display: inline-block;
+    padding: 0px 2px 0px 2px; }
+
+.posting {
+  float: right;
+  height: 55px;
+  width: 560px;
+  margin-right: 30px;
+  border: 1px solid #336666;
+  background-color: #E9EBEE; }
+  .posting .post-text-field {
+    width: 450px;
+    height: 40px;
+    margin: 7px 10px 5px 10px;
+    padding-bottom: 20px; }
+  .posting .post-button {
+    float: right;
+    width: 70px;
+    margin: 17px 10px 5px 0px;
+    color: white;
+    background-color: #3b5998; }
+
+.sort-by-post {
+  float: right;
+  height: 25px;
+  width: 560px;
+  margin: 5px 30px 0px 0px;
+  color: #999; }
+  .sort-by-post b {
+    float: left;
+    font-size: 12px;
+    margin-top: 3px; }
+  .sort-by-post .line {
+    float: left;
+    border-bottom: 1px solid #999;
+    margin: 12px 0px 0px 3px;
+    width: 310px; }
+  .sort-by-post .posts {
+    float: left;
+    margin: 5px 0px 0px 5px;
+    height: 13px;
+    display: inline-block;
+    padding: 3px; }
+    .sort-by-post .posts span {
+      float: left;
+      max-height: 100%;
+      max-width: 100%;
+      font-size: 8px; }
+  .sort-by-post .posts-selected {
+    border-radius: 4px;
+    background-color: #6699cc;
+    color: #fff; }
+
+.post1 {
+  float: right;
+  height: 100px;
+  width: 560px;
+  margin-right: 30px; }
+  .post1 .poster-avatar {
+    float: left;
+    width: 60px;
+    height: 100%;
+    margin-right: 5px; }
+    .post1 .poster-avatar img {
+      max-width: 100%; }
+  .post1 .poster-text {
+    background-color: #E9EBEE;
+    float: left;
+    overflow-wrap: break-word;
+    max-width: 495px;
+    max-height: 100%;
+    padding: 3px;
+    border-bottom: 1px solid #999; }
+    .post1 .poster-text a {
+      text-decoration: none; }
+
+.post-date {
+  float: right;
+  height: 25px;
+  width: 560px;
+  margin: 5px 30px 0px 0px;
+  color: #999; }
+  .post-date b {
+    float: left;
+    font-size: 12px;
+    margin-top: 3px; }
+  .post-date .line {
+    float: left;
+    border-bottom: 1px solid #999;
+    margin: 12px 0px 0px 3px;
+    width: 513px; }
+
+.generic-post {
+  float: right;
+  height: 25px;
+  width: 560px;
+  margin-right: 30px; }
+  .generic-post img {
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0px 10px 0px 40px; }
+  .generic-post a {
+    text-decoration: none; }
+
+.post4 {
+  float: right;
+  width: 560px;
+  margin-right: 30px; }
+  .post4 img {
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0px 10px 0px 40px; }
+  .post4 a {
+    text-decoration: none; }
+  .post4 .postInnerElement {
+    float: right;
+    height: 25px;
+    width: 100%; }
+
+.right-panel {
+  float: left;
+  height: 555px;
+  margin: 105px 0px 0px 165px;
+  width: 200px; }
+
+.view-photos {
+  float: left;
+  height: 17px;
+  width: 200px;
+  border-bottom: 1px solid #336666;
+  font-size: 12px;
+  margin: 5px 7px 10px 7px; }
+
+.credentials {
+  float: left;
+  height: 205px;
+  width: 210px;
+  border: 1px solid #336666;
+  font-size: 12px;
+  margin: 0px 15px 10px 0px; }
+  .credentials a {
+    text-decoration: none; }
+  .credentials .credentials-buttons {
+    height: 17px;
+    margin: 5px 7px 0px 7px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #336666; }
+    .credentials .credentials-buttons img {
+      float: right;
+      max-width: 100%;
+      max-height: 100%;
+      padding: 0px 0px 0px 25px; }
+  .credentials .credentials-info {
+    margin: 5px 7px 0px 7px; }
+
+.text-grey {
+  color: #999; }
+
+.mutual-friends {
+  font-size: 12px;
+  float: left;
+  height: 135px;
+  width: 210px;
+  border: 1px solid #336666;
+  margin: 0px 15px 10px 0px; }
+  .mutual-friends .mutual-friends-header {
+    background-color: #ccccff;
+    height: 22px; }
+    .mutual-friends .mutual-friends-header b {
+      margin: 5px 7px 0px 7px; }
+  .mutual-friends a {
+    text-decoration: none;
+    margin: 5px 7px 0px 7px; }
+  .mutual-friends .mutual-pic {
+    float: left;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    margin: 8px 8px 0px 8px; }
+    .mutual-friends .mutual-pic a {
+      margin: 0px;
+      border: 0px; }
+  .mutual-friends .mutual-pic-name {
+    float: left;
+    width: 50px;
+    height: 20px;
+    margin: 4px 8px 0px 8px; }
+    .mutual-friends .mutual-pic-name a {
+      margin: 0px;
+      border: 0px;
+      float: left;
+      text-decoration: none; }
+
+.friends {
+  font-size: 12px;
+  float: left;
+  height: 195px;
+  width: 210px;
+  border: 1px solid #336666;
+  margin: 0px 15px 0px 0px; }
+  .friends .friends-header {
+    background-color: #ccccff;
+    height: 22px; }
+    .friends .friends-header b {
+      margin: 5px 7px 0px 7px; }
+  .friends a {
+    margin: 5px 7px 0px 7px;
+    text-decoration: none; }
+  .friends .friends-pic {
+    float: left;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    margin: 8px 8px 0px 8px; }
+    .friends .friends-pic a {
+      margin: 0px;
+      border: 0px; }
+  .friends .friend-pic-name {
+    float: left;
+    width: 50px;
+    height: 20px;
+    margin: 4px 8px 8px 8px; }
+    .friends .friend-pic-name a {
+      margin: 0px;
+      border: 0px;
+      float: left;
+      text-decoration: none; }
+
+.ads {
+  float: right;
+  width: 150px;
+  height: 480px;
+  margin: 50px 100px 0px 0px; }
+  .ads a {
+    margin-left: 15px; }
+  .ads .adsblock {
+    height: 225px;
+    border: 1px solid #999999;
+    margin-bottom: 5px;
+    padding: 5px; }
+    .ads .adsblock span {
+      margin-left: 15px; }
+    .ads .adsblock img {
+      margin-left: 15px; }
